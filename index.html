@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cc_bolg</title>
+    <link rel="stylesheet" href="cc_bolg.css">
+</head>
+<body>
+    <!--header-->
+<header>
+    <!--<h1>我的博客主页</h1>-->
+    <div><span class="username">您好！用户名</span><span class="log_out">退出</span></div>
+</header>
+    <!--section-->
+<section>
+    <!--左侧-->
+    <aside class="left_box">
+        <ul>
+            <li class="list_li"><a href="#bio">用户资料</a></li>
+            <li class="list_li"><a href="#bolg">我的博客</a></li>
+            <li class="list_li"><a href="#writeBolg">写博客</a></li>
+            <li class="fold_li friend_list active">
+                <span>我的好友</span>
+                <b></b>
+                <div class="list_box"></div>
+            </li>
+            <li class="list_li"><a href="#save">我的收藏</a></li>
+            <li class="fold_li follow_list">
+                <span>我的关注</span>
+                <b></b>
+                <div class="list_box"></div>
+            </li>
+            <li class="fold_li my_followers">
+                <span>我的迷猿</span>
+                <b></b>
+                <div class="list_box"></div>
+            </li>
+        </ul>
+    </aside>
+    <!--中部-->
+    <main class="middle_box">
+        <div class="top">
+            <input type="text"><button class="search_btn">搜索</button>
+        </div>
+        <div class="main">
+            <div id="bio" class="active">用户资料</div>
+            <div id="bolg">我的博客</div>
+            <div id="writeBolg">写博客</div>
+            <div id="save">我的收藏</div>
+        </div>
+    </main>
+    <!--右侧-->
+    <aside class="right_box">
+        <p>留言板</p>
+        <ul>
+            <li>
+                <p>*********</p>
+                <span>4</span>
+            </li>
+            <li>
+                <p>*****</p>
+                <span>1</span>
+            </li>
+            <li>
+                <p>*******</p>
+                <span>6</span>
+            </li>
+        </ul>
+    </aside>
+</section>
+</body>
+<script src="js/jquery-1.12.4.js"></script>
+<script src="js/cc_bolg.js"></script>
+</html>
